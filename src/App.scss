@@ -1,0 +1,32 @@
+$color-primary: #6b7a8f;
+$color-secondary: #101118;
+$color-accent: #1d1f2f;
+$color-focus: #6d64f7;
+$base-duration: 600ms;
+$base-ease: cubic-bezier(0.25, 0.46, 0.45, 0.84);
+$slide-size: 70vmin;
+$slide-margin: 4vmin;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: $color-secondary;
+}
+
+.app {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow-x: hidden;
+  width: 100%;
+}

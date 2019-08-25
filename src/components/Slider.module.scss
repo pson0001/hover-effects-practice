@@ -1,0 +1,13 @@
+@import "../App.scss";
+.slider {
+  display: flex;
+  flex-direction: row;
+}
+
+.sliderWrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform $base-duration cubic-bezier(0.25, 1, 0.35, 1);
+}
